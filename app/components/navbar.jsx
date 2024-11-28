@@ -30,7 +30,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#experience"
             >
-              <div className="dark:text-gray-300 text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
+              <div className="dark:text-gray-300 font-bold text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
                 EXPERIENCE
               </div>
             </a>
@@ -40,7 +40,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#skills"
             >
-              <div className="dark:text-gray-300 text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
+              <div className="dark:text-gray-300 font-bold text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
                 SKILLS
               </div>
             </a>
@@ -50,7 +50,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#education"
             >
-              <div className="dark:text-gray-300 text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
+              <div className="dark:text-gray-300 font-bold text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
                 EDUCATION
               </div>
             </a>
@@ -60,7 +60,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#blogs"
             >
-              <div className="dark:text-gray-300 text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
+              <div className="dark:text-gray-300 font-bold text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
                 BLOGS
               </div>
             </a>
@@ -70,7 +70,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#projects"
             >
-              <div className="dark:text-gray-300 text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
+              <div className="dark:text-gray-300 font-bold text-sm text-gray-700 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
                 PROJECTS
               </div>
             </a>

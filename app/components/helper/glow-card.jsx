@@ -3,6 +3,13 @@ import { useEffect } from "react";
 
 const GlowCard = ({ children, identifier }) => {
   useEffect(() => {
+    let Lottie;
+    const loadLottie = async () => {
+      Lottie = (await import("lottie-web")).default;
+    };
+
+    loadLottie();
+
     if (typeof document !== "undefined") {
       const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
       const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
@@ -65,7 +72,6 @@ const GlowCard = ({ children, identifier }) => {
       RESTYLE();
       UPDATE();
 
-      // Cleanup event listener
       return () => {
         document.body.removeEventListener("pointermove", UPDATE);
       };

@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "lottie-react": "^2.4.0",
+    "lottie-react": "^2.4.1",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",

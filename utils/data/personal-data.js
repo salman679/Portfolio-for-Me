@@ -1,10 +1,10 @@
 export const personalData = {
   name: "Salman Izhar",
-  profile: "/profile.png",
+  profile: "/profilepic.jpg",
   designation: "MERN Stack Developer",
   description:
-    "My name is SALMAN IZHAR. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: "Sbinazhar671@gmail.com",
+    "I am a professional and enthusiastic programmer with 2 years of experience in front-end technologies like Tailwind and React.js, and back-end technologies like Node.js, Express.js, and MongoDB. A quick learner with a self-learning attitude, I am passionate about problem-solving and exploring new technologies. My core skill is JavaScript, and I enjoy building solutions with it. I am open to job opportunities that align with my skills and interests.",
+  email: "mdsalmanizhar@gmail.com",
   phone: "+8801690181508",
   address: "Dhaka, Bangladesh",
   github: "https://github.com/salman679",

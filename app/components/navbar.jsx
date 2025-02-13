@@ -1,4 +1,5 @@
 // @flow strict
+import Image from "next/image";
 import Link from "next/link";
 
 function Navbar() {
@@ -7,7 +8,14 @@ function Navbar() {
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Link href="/" className=" text-[#16f2b3] text-3xl font-bold">
-            Salman Izhar
+            <Image
+              width={250}
+              height={200}
+              className="mt-3"
+              src="/signature (2).png"
+              alt=""
+            />
+            {/* Salman Izhar */}
           </Link>
         </div>
 

@@ -17,8 +17,6 @@ function ContactForm() {
     required: false,
   });
 
-  console.log(input);
-
   const checkRequired = () => {
     if (input.email && input.message && input.name) {
       setError({ ...error, required: false });

@@ -52,9 +52,9 @@ export default function Project({ project }) {
           </div>
 
           {/* Role */}
-          <p className="text-sm text-gray-500 mt-2">
+          {/* <p className="text-sm text-gray-500 mt-2">
             <span className="font-medium">Role:</span> {project.role}
-          </p>
+          </p> */}
         </div>
       </div>
     </motion.div>

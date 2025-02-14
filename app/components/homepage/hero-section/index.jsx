@@ -28,7 +28,7 @@ function HeroSection() {
             This is <span className=" text-pink-500">
               {personalData.name}
             </span>, <br />
-            {`I'm a Professional `}
+            {`I'm a Professional `} <br />
             <span className=" text-[#16f2b3]">
               {/* {personalData.designation} */}
               <TypeWriter />

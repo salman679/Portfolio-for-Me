@@ -4,11 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 export default function TypeWriter() {
   return (
     <Typewriter
-      words={[
-        "Frontend Web Developer",
-        "MERN Stack Developer",
-        "Web Developer",
-      ]}
+      words={["Frontend Developer", "MERN Stack Developer", "Web Developer"]}
       loop={true}
       cursor
       cursorStyle="_"

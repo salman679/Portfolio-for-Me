@@ -48,7 +48,7 @@ const Projects = () => {
 
             <Project key={project.id} project={project} />
           ))}
-        </Swiper>
+        </div>
       </div>
     </div>
   );

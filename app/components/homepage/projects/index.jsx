@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef } from "react";
 import { projectsData } from "@/utils/data/projects-data";
 import Project from "./Project";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,6 +10,17 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Projects = () => {
+  const swiperRef = useRef(null); // Create a reference to Swiper instance
+
+  // Function to handle navigation
+  const goToNextSlide = () => {
+    swiperRef.current.swiper.slideNext();
+  };
+
+  const goToPrevSlide = () => {
+    swiperRef.current.swiper.slidePrev();
+  };
+
   return (
     <div id="projects" className="relative z-50 my-12 lg:my-24">
       <div className="top-10">
@@ -22,22 +34,19 @@ const Projects = () => {
       </div>
 
       <div className="pt-24">
-        <Swiper
-          modules={[Navigation, Pagination]}
-          spaceBetween={20}
-          slidesPerView={1}
-          breakpoints={{
-            640: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-          pagination={{ clickable: true }}
-          className="w-full h-full relative"
-        >
-          {projectsData.slice(0, 3).map((project) => (
-            <SwiperSlide key={project.id} className="h-full">
-              <Project project={project} />
-            </SwiperSlide>
+        <div className="flex justify-center items-center gap-6">
+          {projectsData.slice(0, 3).map((project, index) => (
+            // <div
+            //   id={`sticky-card-${index + 1}`}
+            //   key={index}
+            //   className="sticky-card w-full mx-auto max-w-2xl sticky"
+            // >
+            //   <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">
+            //     <ProjectCard project={project} />
+            //   </div>
+            // </div>
+
+            <Project key={project.id} project={project} />
           ))}
         </Swiper>
       </div>

@@ -1,6 +1,5 @@
 "use client";
 
-import { useRef } from "react";
 import { projectsData } from "@/utils/data/projects-data";
 import Project from "./Project";
 import { Swiper, SwiperSlide } from "swiper/react";

@@ -1,4 +1,5 @@
 // @flow strict
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,13 +9,21 @@ function Navbar() {
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Link href="/" className=" text-[#16f2b3] text-3xl font-bold">
-            <Image
+            {/* <Image
               width={250}
               height={200}
               className="mt-3"
               src="/signature (2).png"
               alt=""
-            />
+            /> */}
+            <Link href="https://www.fontspace.com/category/signature">
+              <Image
+                width={250}
+                height={200}
+                src="https://see.fontimg.com/api/rf5/MaZx/NTA3OTA5YjhkYTBjNGExZWE1MzBiNWVkMWVmNzFmNmYudHRm/U2FsbWFuIEl6aGFy/brittany-signature.png?r=fs&h=98&w=1500&fg=000000&bg=FFFFFF&tb=1&s=65"
+                alt="Signature fonts"
+              />
+            </Link>
             {/* Salman Izhar */}
           </Link>
         </div>

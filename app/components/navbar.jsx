@@ -16,15 +16,7 @@ function Navbar() {
               src="/signature (2).png"
               alt=""
             /> */}
-            <Link href="https://www.fontspace.com/category/signature">
-              <Image
-                width={250}
-                height={200}
-                src="https://see.fontimg.com/api/rf5/MaZx/NTA3OTA5YjhkYTBjNGExZWE1MzBiNWVkMWVmNzFmNmYudHRm/U2FsbWFuIEl6aGFy/brittany-signature.png?r=fs&h=98&w=1500&fg=000000&bg=FFFFFF&tb=1&s=65"
-                alt="Signature fonts"
-              />
-            </Link>
-            {/* Salman Izhar */}
+            Salman Izhar
           </Link>
         </div>
 

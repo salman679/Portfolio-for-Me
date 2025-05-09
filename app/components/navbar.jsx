@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="bg-transparent sticky">
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
-          <Link href="/" className=" text-pink-500 text-3xl font-bold">
+          <Link href="/" className=" text-[#9a6eff] text-3xl font-bold">
             {/* <Image
               width={250}
               height={200}
@@ -64,7 +64,7 @@ function Navbar() {
               </div>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#blogs"
@@ -73,16 +73,16 @@ function Navbar() {
                 BLOGS
               </div>
             </a>
-          </li>
+          </li> */}
           <li>
-            <a
+            <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
-              href="#projects"
+              href="/projects"
             >
               <div className="dark:text-gray-300 text-white font-bold text-sm  transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">
                 PROJECTS
               </div>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

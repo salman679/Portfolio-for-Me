@@ -13,8 +13,8 @@ function Footer() {
             © Developer Portfolio by{" "}
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/salman-izhar-37b222221/"
-              className="text-[#16f2b3]"
+              href="https://www.linkedin.com/in/salman-izhar/"
+              className="text-[#9a6eff]"
             >
               Salman Izhar
             </Link>

@@ -8,11 +8,12 @@ export const personalData = {
   phone: "+8801690181508",
   address: "Dhaka, Bangladesh",
   github: "https://github.com/salman679",
-  facebook: "https://www.facebook.com/profile.php?id=100053359325602",
-  linkedIn: "https://www.linkedin.com/in/salman-izhar-37b222221/",
+  facebook: "https://www.facebook.com/share/1Bnv27sMWf",
+  linkedIn: "https://www.linkedin.com/in/salman-izhar",
   twitter: "",
   stackOverflow: "",
   leetcode: "",
   devUsername: "Salman671",
-  resume: "./Resume of Salman Izhar.pdf",
+  resume:
+    "https://drive.google.com/file/d/1JHIv5Oki2cJSz3Es2BS3-8Bvzrt83lOz/view?usp=sharing",
 };

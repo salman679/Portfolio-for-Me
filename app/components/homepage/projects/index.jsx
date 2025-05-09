@@ -33,8 +33,8 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="pt-24">
-        <div className="flex justify-center items-center gap-6">
+      <div className="my-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {projectsData.slice(0, 3).map((project, index) => (
             // <div
             //   id={`sticky-card-${index + 1}`}

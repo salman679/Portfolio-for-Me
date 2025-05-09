@@ -7,7 +7,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import experience from "/public/lottie/code.json";
-import { motion } from "motion/react";
+// import { motion } from "motion/react";
 
 function Experience() {
   return (
@@ -34,7 +34,7 @@ function Experience() {
       </div>
 
       <div className="py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
               <AnimationLottie animationPath={experience} />
@@ -48,10 +48,10 @@ function Experience() {
                   key={experience.id}
                   identifier={`experience-${experience.id}`}
                 >
-                  <motion.div
-                    initial={{ opacity: 0, x: 100 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5 }}
+                  <div
+                    // initial={{ opacity: 0, x: 100 }}
+                    // whileInView={{ opacity: 1, x: 0 }}
+                    // transition={{ duration: 0.5 }}
                     className="p-3 relative"
                   >
                     <Image
@@ -79,7 +79,7 @@ function Experience() {
                         </p>
                       </div>
                     </div>
-                  </motion.div>
+                  </div>
                 </GlowCard>
               ))}
             </div>

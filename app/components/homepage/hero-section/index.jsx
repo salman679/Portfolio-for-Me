@@ -41,7 +41,7 @@ function HeroSection() {
               <Link
                 href={personalData.github}
                 target="_blank"
-                className="transition-all text-pink-500 hover:scale-125 duration-300"
+                className="transition-all text-[#9a6eff] hover:scale-125 duration-300"
               >
                 <BsGithub size={30} />
               </Link>
@@ -51,7 +51,7 @@ function HeroSection() {
               <Link
                 href={personalData.linkedIn}
                 target="_blank"
-                className="transition-all text-pink-500 hover:scale-125 duration-300"
+                className="transition-all text-[#9a6eff] hover:scale-125 duration-300"
               >
                 <BsLinkedin size={30} />
               </Link>
@@ -60,7 +60,7 @@ function HeroSection() {
               <Link
                 href={personalData.facebook}
                 target="_blank"
-                className="transition-all text-pink-500 hover:scale-125 duration-300"
+                className="transition-all text-[#9a6eff] hover:scale-125 duration-300"
               >
                 <FaFacebook size={30} />
               </Link>
@@ -70,7 +70,7 @@ function HeroSection() {
               <Link
                 href={personalData.leetcode}
                 target="_blank"
-                className="transition-all text-pink-500 hover:scale-125 duration-300"
+                className="transition-all text-[#9a6eff] hover:scale-125 duration-300"
               >
                 <SiLeetcode size={30} />
               </Link>
@@ -80,7 +80,7 @@ function HeroSection() {
               <Link
                 href={personalData.twitter}
                 target="_blank"
-                className="transition-all text-pink-500 hover:scale-125 duration-300"
+                className="transition-all text-[#9a6eff] hover:scale-125 duration-300"
               >
                 <FaTwitterSquare size={30} />
               </Link>
